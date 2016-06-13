@@ -12,13 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('starter-template');
-});
-
-Route::get('/parallax', function () {
     return view('parallax-template');
-});
-
-Route::get('/scrollfire', function () {
-    return view('scrollfire');
 });
