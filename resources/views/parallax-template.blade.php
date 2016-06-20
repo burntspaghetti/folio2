@@ -53,7 +53,7 @@
               <p class="teal-text text-lighten-2"><b>IT Guru</b></p>
               <br>
               <div class="card-action center">
-                <a href="#" class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+                <a class="activator waves-effect waves-light btn">Info</a>
               </div>
             </div>
             <div class="card-reveal">
@@ -212,8 +212,8 @@
             <p><b>Result:</b> New site design optimizes user friendliness and provides important administrative controls for content management.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal2" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal2" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- e-commerce Modal -->
@@ -252,6 +252,9 @@
               </div>
             </div>
           </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+          </div>
         </div>
         {{--web forms processing card--}}
         <div class="card hoverable">
@@ -271,8 +274,8 @@
             <p><b>Result:</b> New solution enhanced user friendliness and maintainability of application by providing a more efficient mobile-first process.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal6" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal6" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- web forms processing modal-->
@@ -334,8 +337,8 @@
             <p><b>Result: </b>New mobile friendly system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal4" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal4" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- immunizations modal-->
@@ -374,8 +377,8 @@
             </p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal5" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal5" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- inventory management modal -->
@@ -437,8 +440,8 @@
             <p><b>Result:</b> New process optimizes information flow and allows users to make more informed and efficient decisions regarding the compatibility of their study abroad course credit and degree requirements, saving an average of more than 60 minutes for each student user compared to the old process.
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal3" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal3" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- data feed integration Modal-->
@@ -483,8 +486,8 @@
             <p><b>Result:</b> Successfully integrated two clients’ services and enabled delivery of IPTV services to on campus residents while maintaining confidentiality of user information.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator waves-effect waves-light btn">Info</a>
+            <a href="#modal1" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
           </div>
         </div>
         <!-- secure login Modal-->
@@ -523,14 +526,12 @@
             <div class="collapsible-header">Languages</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">PHP</a>
-                <a class="waves-effect waves-light btn btn-spacer">PL/SQL</a>
-                <a class="waves-effect waves-light btn btn-spacer">JavaScript</a>
-                <a class="waves-effect waves-light btn btn-spacer">HTML</a>
-                <a class="waves-effect waves-light btn btn-spacer">CSS/SASS</a>
-                <a class="waves-effect waves-light btn btn-spacer">PL/SQL</a>
-                <a class="waves-effect waves-light btn btn-spacer">C#</a>
-                <a class="waves-effect waves-light btn btn-spacer">JavaScript</a>
+                <div class="chip">PHP</div>
+                <div class="chip">PL/SQL</div>
+                <div class="chip">JavaScript</div>
+                <div class="chip">HTML</div>
+                <div class="chip">CSS/SASS</div>
+                <div class="chip">C#</div>
               </p>
             </div>
           </li>
@@ -538,21 +539,21 @@
             <div class="collapsible-header">Frameworks/Libraries</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Laravel</a>
-                <a class="waves-effect waves-light btn btn-spacer">jQuery</a>
-                <a class="waves-effect waves-light btn btn-spacer">Vue.js</a>
-                <a class="waves-effect waves-light btn btn-spacer">Twitter Bootstrap</a>
-                <a class="waves-effect waves-light btn btn-spacer">Materialize</a>
-                <a class="waves-effect waves-light btn btn-spacer">ASP.NET MVC</a>
-                <a class="waves-effect waves-light btn btn-spacer">Web Forms</a>
-                <a class="waves-effect waves-light btn btn-spacer">Highcharts</a>
-                <a class="waves-effect waves-light btn btn-spacer">Chart.js</a>
-                <a class="waves-effect waves-light btn btn-spacer">Image Intervention</a>
-                <a class="waves-effect waves-light btn btn-spacer">DataTables</a>
-                <a class="waves-effect waves-light btn btn-spacer">phpCAS</a>
-                <a class="waves-effect waves-light btn btn-spacer">phpAES</a>
-                <a class="waves-effect waves-light btn btn-spacer">FPDF/FPDI</a>
-                <a class="waves-effect waves-light btn btn-spacer">Font Awesome</a>
+                <div class="chip">Laravel</div>
+                <div class="chip">jQuery</div>
+                <div class="chip">Vue.js</div>
+                <div class="chip">Twitter Bootstrap</div>
+                <div class="chip">MaterializeCSS</div>
+                <div class="chip">ASP.NET MVC</div>
+                <div class="chip">Web Forms</div>
+                <div class="chip">Highcharts</div>
+                <div class="chip">Chart.js</div>
+                <div class="chip">Image Intervention</div>
+                <div class="chip">DataTables</div>
+                <div class="chip">PhpCAS</div>
+                <div class="chip">PhpAES</div>
+                <div class="chip">FPDF/FPDI</div>
+                <div class="chip">Font Awesome</div>
               </p>
             </div>
           </li>
@@ -560,11 +561,11 @@
             <div class="collapsible-header">APIs</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Twitter</a>
-                <a class="waves-effect waves-light btn btn-spacer">Google Maps</a>
-                <a class="waves-effect waves-light btn btn-spacer">Stack Exchange</a>
-                <a class="waves-effect waves-light btn btn-spacer">Alchemy API</a>
-                <a class="waves-effect waves-light btn btn-spacer">OCI</a>
+                <div class="chip">Twitter</div>
+                <div class="chip">Google Maps</div>
+                <div class="chip">Stack Exchange</div>
+                <div class="chip">Alchemy API</div>
+                <div class="chip">OCI</div>
               </p>
             </div>
           </li>
@@ -572,8 +573,8 @@
             <div class="collapsible-header">OS</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Linux</a>
-                <a class="waves-effect waves-light btn btn-spacer">Microsoft</a>
+                <div class="chip">Linux</div>
+                <div class="chip">Microsoft</div>
               </p>
             </div>
           </li>
@@ -581,9 +582,9 @@
             <div class="collapsible-header">Databases</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Oracle</a>
-                <a class="waves-effect waves-light btn btn-spacer">MySQL</a>
-                <a class="waves-effect waves-light btn btn-spacer">Microsoft SQL</a>
+                <div class="chip">Oracle</div>
+                <div class="chip">MySQL</div>
+                <div class="chip">Microsoft SQL</div>
               </p>
             </div>
           </li>
@@ -591,9 +592,9 @@
             <div class="collapsible-header">Servers</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Apache</a>
-                <a class="waves-effect waves-light btn btn-spacer">Nginx</a>
-                <a class="waves-effect waves-light btn btn-spacer">Microsoft</a>
+                <div class="chip">Apache</div>
+                <div class="chip">NGINX</div>
+                <div class="chip">Microsoft</div>
               </p>
             </div>
           </li>
@@ -601,9 +602,9 @@
             <div class="collapsible-header">Project Management</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Jira</a>
-                <a class="waves-effect waves-light btn btn-spacer">Confluence</a>
-                <a class="waves-effect waves-light btn btn-spacer">Trello</a>
+                <div class="chip">JIRA</div>
+                <div class="chip">Confluence</div>
+                <div class="chip">Trello</div>
               </p>
             </div>
           </li>
@@ -611,13 +612,13 @@
             <div class="collapsible-header">Other</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn btn-spacer">Chrome DevTools</a>
-                <a class="waves-effect waves-light btn btn-spacer">Firebug</a>
-                <a class="waves-effect waves-light btn btn-spacer">Vagrant</a>
-                <a class="waves-effect waves-light btn btn-spacer">Bitbucket</a>
-                <a class="waves-effect waves-light btn btn-spacer">Git</a>
-                <a class="waves-effect waves-light btn btn-spacer">AMP</a>
-                <a class="waves-effect waves-light btn btn-spacer">WAVE Toolbar</a>
+                <div class="chip">Chrome DevTools</div>
+                <div class="chip">Firebug</div>
+                <div class="chip">Vagrant</div>
+                <div class="chip">BitBucket</div>
+                <div class="chip">Git</div>
+                <div class="chip">AMP</div>
+                <div class="chip">WAVE Toolbar</div>
               </p>
             </div>
           </li>
