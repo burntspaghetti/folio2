@@ -237,7 +237,7 @@
             </div>
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreProductView.png') !!}">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplystoreProductView.png') !!}">
               </div>
               <div class="card-content center">
                 <span class="card-title grey-text text-darken-4">Product View</span>
