@@ -80,7 +80,7 @@
             <div class="icon-block center">
               <h2 class="teal-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
               <h5 class="">Consulting</h5>
-              <p class="light flow-text">Survey and analyze your workflow. Improve your processes. Increase efficiency. Leverage technology.</p>
+              <p class="light flow-text">Analyze your workflow. Improve your processes. Increase efficiency. Leverage technology.</p>
             </div>
           </div>
         </li>
@@ -102,7 +102,7 @@
                 <i class="fa fa-mobile" aria-hidden="true"></i>
               </h2>
               <h5 class="">Responsive Design</h5>
-              <p class="light flow-text">Mobile-first development. Make your app look and feel great on devices of all sizes.</p>
+              <p class="light flow-text">Make your app look and feel great on mobile devices of all sizes.</p>
             </div>
           </div>
         </li>
@@ -128,7 +128,7 @@
                 <i class="fa fa-line-chart" aria-hidden="true"></i>
               </h2>
               <h5 class="">Data Analytics</h5>
-              <p class="light flow-text">Process, analyze, and visualize important information. Perform machine learning analysis to automate the data mining process.</p>
+              <p class="light flow-text">Process, analyze, and visualize important information. Perform machine learning analysis on big data to gain valuable insights.</p>
             </div>
           </div>
         </li>
@@ -165,7 +165,7 @@
                 <i class="fa fa-wheelchair" aria-hidden="true"></i>
               </h2>
               <h5 class="">Accessibility</h5>
-              <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for disabled peoples.</p>
+              <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for disabled users.</p>
             </div>
           </div>
         </li>
@@ -270,7 +270,7 @@
             <span class="card-title grey-text text-darken-4">Web Forms Processing<i class="material-icons right">close</i></span>
             <br>
             <p><b>Context:</b> An existing donation system was running on old technologies, had an outdated theme, and was not optimized for mobile devices. A new and more maintainable solution was needed.</p>
-            <p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly front-end, and MySQL and Oracle databases.</p>
+            <p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly front end, and MySQL and Oracle databases on the back end.</p>
             <p><b>Result:</b> New solution enhanced user friendliness and maintainability of application by providing a more efficient mobile-first process.</p>
           </div>
           <div class="card-action center">
@@ -436,7 +436,7 @@
             <span class="card-title grey-text text-darken-4">Data Integration<i class="material-icons right">close</i></span>
             <br>
             <p><b>Context:</b> In order to gain credit towards their desired degrees, students planning on studying abroad at universities in foreign countries must first fill out a paper form and schedule a meeting with an advisor given limited time slots. There are hundreds of different study abroad programs offering thousands of different courses which must be matched to the appropriate equivalent course at the University of Alabama. The current state of this process is tediously handled using paper based forms and various Excel spreadsheets with no uniform data structure. A more efficient and automated system was needed to cope with increased work load.</p>
-            <p><b>Action:</b> Met with process stakeholders to map out requirements, current state process flow, and database structure. Designed and developed web based form process and integrated third party data source into the application. Tested and deployed application on to Apache server.</p>
+            <p><b>Action:</b> Met with process stakeholders to map out requirements, current state process flow, and database structure. Designed and developed web based form process and integrated third party data source into the application. Tested and deployed application onto an Apache server.</p>
             <p><b>Result:</b> New process optimizes information flow and allows users to make more informed and efficient decisions regarding the compatibility of their study abroad course credit and degree requirements, saving an average of more than 60 minutes for each student user compared to the old process.
           </div>
           <div class="card-action center">
