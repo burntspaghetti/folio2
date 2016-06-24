@@ -333,8 +333,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Mobile First<i class="material-icons right">close</i></span>
             <p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>
-            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
-            <p><b>Result: </b>New mobile friendly system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
+            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a back end document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
+            <p><b>Result: </b>New mobile first system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
           </div>
           <div class="card-action center">
             <a class="activator waves-effect waves-light btn">Info</a>
@@ -657,9 +657,9 @@
   <div class="container">
     <div class="row center">
       <a href="mailto:nsbertanzetti@gmail.com" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-linkedin"></i></a>
-      <a href="https://github.com/burntspaghetti" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>
-      <a href="http://stackoverflow.com/users/3895839/thesingularity" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>
+      <a href="https://www.linkedin.com/in/nickbertanzetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-linkedin"></i></a>
+      <a href="https://github.com/burntspaghetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>
+      <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>
     </div>
   </div>
   <div class="footer-copyright">
