@@ -270,7 +270,7 @@
             <span class="card-title grey-text text-darken-4">Web Forms Processing<i class="material-icons right">close</i></span>
             <br>
             <p><b>Context:</b> An existing donation system was running on old technologies, had an outdated theme, and was not optimized for mobile devices. A new and more maintainable solution was needed.</p>
-            <p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly front end, and MySQL and Oracle databases on the back end.</p>
+            <p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly frontend, and MySQL and Oracle databases on the backend.</p>
             <p><b>Result:</b> New solution enhanced user friendliness and maintainability of application by providing a more efficient mobile-first process.</p>
           </div>
           <div class="card-action center">
@@ -333,7 +333,7 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Mobile First<i class="material-icons right">close</i></span>
             <p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>
-            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a back end document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
+            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
             <p><b>Result: </b>New mobile first system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
           </div>
           <div class="card-action center">
