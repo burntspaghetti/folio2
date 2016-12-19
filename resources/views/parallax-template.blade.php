@@ -22,16 +22,16 @@
       </div>
     </div>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#" class="white-text">About</a></li>
+      {{--<li><a href="#" class="white-text">About</a></li>--}}
       <li><a href="#services" class="white-text">Services</a></li>
-      <li><a href="#portfolio" class="white-text">Portfolio</a></li>
+      {{--<li><a href="#portfolio" class="white-text">Portfolio</a></li>--}}
       <li><a href="#tools" class="white-text">Tools</a></li>
       <li><a href="#contact" class="white-text">Contact</a></li>
     </ul>
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="#" class="teal-text"><b>About</b></a></li>
+      {{--<li><a href="#" class="teal-text"><b>About</b></a></li>--}}
       <li><a href="#services" class="teal-text"><b>Services</b></a></li>
-      <li><a href="#portfolio" class="teal-text"><b>Portfolio</b></a></li>
+      {{--<li><a href="#portfolio" class="teal-text"><b>Portfolio</b></a></li>--}}
       <li><a href="#tools" class="teal-text"><b>Tools</b></a></li>
       <li><a href="#contact" class="teal-text"><b>Contact</b></a></li>
     </ul>
@@ -185,334 +185,334 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="section" id="portfolio">
-    <div class="row">
-      <div class="col s12 center">
-        <h3><i class="mdi-content-send brown-text"></i></h3>
-        <h3>Portfolio</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col l6">
+{{--<div class="container">--}}
+  {{--<div class="section" id="portfolio">--}}
+    {{--<div class="row">--}}
+      {{--<div class="col s12 center">--}}
+        {{--<h3><i class="mdi-content-send brown-text"></i></h3>--}}
+        {{--<h3>Portfolio</h3>--}}
+      {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="row">--}}
+      {{--<div class="col l6">--}}
         {{--e-commerce card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">E-Commerce</span>
-            <br>
-            <p>Build a digital storefront for your business</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">E-Commerce<i class="material-icons right">close</i></span>
-            <p><b>Context:</b> The UA Supply Store’s e-commerce site was outdated, poorly designed, and lacked adequate controls for administrators to manage the site.</p>
-            <p><b>Action:</b> Co-developed a redesigned website with a focus on user experience. Worked with 3rd party suppliers to integrate inventory API.</p>
-            <p><b>Result:</b> New site design optimizes user friendliness and provides important administrative controls for content management.</p>
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal2" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- e-commerce Modal -->
-        <div id="modal2" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Home Page</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreSearch.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Search Function</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplystoreProductView.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Product View</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreBuyBooks.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Book Checkout/Purchase</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">--}}
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">E-Commerce</span>--}}
+            {{--<br>--}}
+            {{--<p>Build a digital storefront for your business</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">E-Commerce<i class="material-icons right">close</i></span>--}}
+            {{--<p><b>Context:</b> The UA Supply Store’s e-commerce site was outdated, poorly designed, and lacked adequate controls for administrators to manage the site.</p>--}}
+            {{--<p><b>Action:</b> Co-developed a redesigned website with a focus on user experience. Worked with 3rd party suppliers to integrate inventory API.</p>--}}
+            {{--<p><b>Result:</b> New site design optimizes user friendliness and provides important administrative controls for content management.</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal2" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- e-commerce Modal -->--}}
+        {{--<div id="modal2" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Home Page</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreSearch.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Search Function</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplystoreProductView.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Product View</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreBuyBooks.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Book Checkout/Purchase</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
         {{--web forms processing card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">Web Forms Processing</span>
-            <br>
-            <p>Let your system keep all the paper for you automatically</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Web Forms Processing<i class="material-icons right">close</i></span>
-            <br>
-            <p><b>Context:</b> An existing donation system was running on old technologies, had an outdated theme, and was not optimized for mobile devices. A new and more maintainable solution was needed.</p>
-            <p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly frontend, and MySQL and Oracle databases on the backend.</p>
-            <p><b>Result:</b> New solution enhanced user friendliness and maintainability of application by providing a more efficient mobile-first process.</p>
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal6" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- web forms processing modal-->
-        <div id="modal6" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeHome.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Home Page</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm1.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Form 1</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Form 2</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeSummary.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Summary</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">--}}
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">Web Forms Processing</span>--}}
+            {{--<br>--}}
+            {{--<p>Let your system file and organize all the paper work for you automatically</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">Web Forms Processing<i class="material-icons right">close</i></span>--}}
+            {{--<br>--}}
+            {{--<p><b>Context:</b> An existing donation system was running on old technologies, had an outdated theme, and was not optimized for mobile devices. A new and more maintainable solution was needed.</p>--}}
+            {{--<p><b>Action:</b> Rewrote existing application out of ColdFusion and into the Laravel framework, utilizing Twitter Bootstrap to create a mobile-friendly frontend, and MySQL and Oracle databases on the backend.</p>--}}
+            {{--<p><b>Result:</b> New solution enhanced user friendliness and maintainability of application by providing a more efficient mobile-first process.</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal6" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- web forms processing modal-->--}}
+        {{--<div id="modal6" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeHome.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Home Page</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm1.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Form 1</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Form 2</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeSummary.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Summary</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
         {{--immunization card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">Mobile First</span>
-            <br>
-            <p>
-              Build your system specifically for mobile devices
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Mobile First<i class="material-icons right">close</i></span>
-            <p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>
-            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
-            <p><b>Result: </b>New mobile first system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal4" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- immunizations modal-->
-        <div id="modal4" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Upload Portal</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
-      </div>
-      <div class="col l6">
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">--}}
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">Mobile First</span>--}}
+            {{--<br>--}}
+            {{--<p>--}}
+              {{--Build your system specifically for mobile devices--}}
+            {{--</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">Mobile First<i class="material-icons right">close</i></span>--}}
+            {{--<p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>--}}
+            {{--<p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>--}}
+            {{--<p><b>Result: </b>New mobile first system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal4" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- immunizations modal-->--}}
+        {{--<div id="modal4" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Upload Portal</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+      {{--<div class="col l6">--}}
         {{--inventory management card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/nursingCheckout/checkout.png') !!}">
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">Inventory Management</span>
-            <br>
-            <p>Track what's important to you with barcode, RFID, and magnetic stripe ID card systems</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Inventory Management<i class="material-icons right">close</i></span>
-            <p><b>Context:</b> The UA College of Nursing uses a wide variety of medical equipment to train their students. During test taking time, long lines with waiting times of up to an hour can form due to the current state process being paper-based. Therefore, an automated system with an emphasis on minimization of transaction time was needed. College of Nursing administrators also needed information for managing their inventory supply.</p>
-            <p><b>Action:</b> Met with the College of Nursing staff to determine specific requirements. Designed and developed automated checkout system, integrating identification card (magnetic stripe) readers and bar code scanning equipment into a web application process.</p>
-            <p><b>Result:</b> New system optimizes process efficiency by minimizing clicks. Total checkout process can be completed in under 5 seconds. Inventory and user history reports provide valuable information for maintaining transparency and properly managing equipment supplies.
-            </p>
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal5" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- inventory management modal -->
-        <div id="modal5" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutHome.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Checkout Page</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutBorrowerHistory.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Borrower History</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutReport.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Checkout Report</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutDeviceHistory.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Device History</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/nursingCheckout/checkout.png') !!}">--}}
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">Inventory Management</span>--}}
+            {{--<br>--}}
+            {{--<p>Track what's important to you with barcode, RFID, and magnetic stripe ID card systems</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">Inventory Management<i class="material-icons right">close</i></span>--}}
+            {{--<p><b>Context:</b> The UA College of Nursing uses a wide variety of medical equipment to train their students. During test taking time, long lines with waiting times of up to an hour can form due to the current state process being paper-based. Therefore, an automated system with an emphasis on minimization of transaction time was needed. College of Nursing administrators also needed information for managing their inventory supply.</p>--}}
+            {{--<p><b>Action:</b> Met with the College of Nursing staff to determine specific requirements. Designed and developed automated checkout system, integrating identification card (magnetic stripe) readers and bar code scanning equipment into a web application process.</p>--}}
+            {{--<p><b>Result:</b> New system optimizes process efficiency by minimizing clicks. Total checkout process can be completed in under 5 seconds. Inventory and user history reports provide valuable information for maintaining transparency and properly managing equipment supplies.--}}
+            {{--</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal5" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- inventory management modal -->--}}
+        {{--<div id="modal5" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutHome.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Checkout Page</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutBorrowerHistory.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Borrower History</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutReport.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Checkout Report</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutDeviceHistory.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Device History</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
         {{--data feed integration card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">Data Integration</span>
-            <p>
-              Better inform your decisions by harnessing information from multiple data sources
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Data Integration<i class="material-icons right">close</i></span>
-            <br>
-            <p><b>Context:</b> In order to gain credit towards their desired degrees, students planning on studying abroad at universities in foreign countries must first fill out a paper form and schedule a meeting with an advisor given limited time slots. There are hundreds of different study abroad programs offering thousands of different courses which must be matched to the appropriate equivalent course at the University of Alabama. The current state of this process is tediously handled using paper based forms and various Excel spreadsheets with no uniform data structure. A more efficient and automated system was needed to cope with increased work load.</p>
-            <p><b>Action:</b> Met with process stakeholders to map out requirements, current state process flow, and database structure. Designed and developed web based form process and integrated third party data source into the application. Tested and deployed application onto an Apache server.</p>
-            <p><b>Result:</b> New process optimizes information flow and allows users to make more informed and efficient decisions regarding the compatibility of their study abroad course credit and degree requirements, saving an average of more than 60 minutes for each student user compared to the old process.
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal3" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- data feed integration Modal-->
-        <div id="modal3" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditHome.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Home Page</span>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Request Form</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">--}}
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">Data Integration</span>--}}
+            {{--<p>--}}
+              {{--Better inform your decisions by harnessing information from multiple data sources--}}
+            {{--</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">Data Integration<i class="material-icons right">close</i></span>--}}
+            {{--<br>--}}
+            {{--<p><b>Context:</b> In order to gain credit towards their desired degrees, students planning on studying abroad at universities in foreign countries must first fill out a paper form and schedule a meeting with an advisor given limited time slots. There are hundreds of different study abroad programs offering thousands of different courses which must be matched to the appropriate equivalent course at the University of Alabama. The current state of this process is tediously handled using paper based forms and various Excel spreadsheets with no uniform data structure. A more efficient and automated system was needed to cope with increased work load.</p>--}}
+            {{--<p><b>Action:</b> Met with process stakeholders to map out requirements, current state process flow, and database structure. Designed and developed web based form process and integrated third party data source into the application. Tested and deployed application onto an Apache server.</p>--}}
+            {{--<p><b>Result:</b> New process optimizes information flow and allows users to make more informed and efficient decisions regarding the compatibility of their study abroad course credit and degree requirements, saving an average of more than 60 minutes for each student user compared to the old process.--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal3" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- data feed integration Modal-->--}}
+        {{--<div id="modal3" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditHome.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Home Page</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Request Form</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
         {{--secure login card--}}
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/philo/login.png') !!}">
+        {{--<div class="card hoverable">--}}
+          {{--<div class="card-image waves-effect waves-block waves-light">--}}
+            {{--<img class="activator" src="{!! asset('screenshots/philo/login.png') !!}">--}}
             {{--put slider here?--}}
-          </div>
-          <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">
-              Secure Login
-            </span>
-            <br>
-            <p>Keep all your users' information safe and secure</p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Secure Login<i class="material-icons right">close</i></span>
-            <br>
-            <p><b>Context:</b> A contract was signed between the University of Alabama and a third party IPTV service provider to deliver internet television streaming services to all on campus residents. The IPTV service provider needed to securely hook into UA’s internal login service and database to authenticate and authorize users to access their services.</p>
-            <p><b>Action:</b> Integrated UA’s Central Authentication Service (CAS) into IPTV service provider login and developed simple web service which took an encrypted user ID, decrypted it, and verified campus residential status from an Oracle database, returning a pass or fail message for service provider to handle.</p>
-            <p><b>Result:</b> Successfully integrated two clients’ services and enabled delivery of IPTV services to on campus residents while maintaining confidentiality of user information.</p>
-          </div>
-          <div class="card-action center">
-            <a class="activator waves-effect waves-light btn">Info</a>
-            <a href="#modal1" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>
-          </div>
-        </div>
-        <!-- secure login Modal-->
-        <div id="modal1" class="modal">
-          <div class="modal-content">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="materialboxed" width="650" src="{!! asset('screenshots/philo/login.png') !!}">
-              </div>
-              <div class="card-content center">
-                <span class="card-title grey-text text-darken-4">Central Authentication Service</span>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+          {{--</div>--}}
+          {{--<div class="card-content center">--}}
+            {{--<span class="card-title activator grey-text text-darken-4">--}}
+              {{--Secure Login--}}
+            {{--</span>--}}
+            {{--<br>--}}
+            {{--<p>Keep all your users' information safe and secure</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-reveal">--}}
+            {{--<span class="card-title grey-text text-darken-4">Secure Login<i class="material-icons right">close</i></span>--}}
+            {{--<br>--}}
+            {{--<p><b>Context:</b> A contract was signed between the University of Alabama and a third party IPTV service provider to deliver internet television streaming services to all on campus residents. The IPTV service provider needed to securely hook into UA’s internal login service and database to authenticate and authorize users to access their services.</p>--}}
+            {{--<p><b>Action:</b> Integrated UA’s Central Authentication Service (CAS) into IPTV service provider login and developed simple web service which took an encrypted user ID, decrypted it, and verified campus residential status from an Oracle database, returning a pass or fail message for service provider to handle.</p>--}}
+            {{--<p><b>Result:</b> Successfully integrated two clients’ services and enabled delivery of IPTV services to on campus residents while maintaining confidentiality of user information.</p>--}}
+          {{--</div>--}}
+          {{--<div class="card-action center">--}}
+            {{--<a class="activator waves-effect waves-light btn">Info</a>--}}
+            {{--<a href="#modal1" class="waves-effect waves-light btn modal-trigger red">Screenshots</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- secure login Modal-->--}}
+        {{--<div id="modal1" class="modal">--}}
+          {{--<div class="modal-content">--}}
+            {{--<div class="card">--}}
+              {{--<div class="card-image waves-effect waves-block waves-light">--}}
+                {{--<img class="materialboxed" width="650" src="{!! asset('screenshots/philo/login.png') !!}">--}}
+              {{--</div>--}}
+              {{--<div class="card-content center">--}}
+                {{--<span class="card-title grey-text text-darken-4">Central Authentication Service</span>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="modal-footer">--}}
+            {{--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+    {{--</div>--}}
+  {{--</div>--}}
+{{--</div>--}}
 
 <div class="container">
   <div class="section" id="tools">
@@ -658,8 +658,8 @@
     <div class="row center">
       <a href="mailto:nsbertanzetti@gmail.com" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/nickbertanzetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-linkedin"></i></a>
-      <a href="https://github.com/burntspaghetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>
-      <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>
+      {{--<a href="https://github.com/burntspaghetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>--}}
+      {{--<a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>--}}
     </div>
   </div>
   <div class="footer-copyright">
