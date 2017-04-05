@@ -521,7 +521,7 @@
         <h3><i class="mdi-content-send brown-text"></i></h3>
         <h3>Tools</h3>
         <span>
-          <p class="caption">I'm always learning something new, but here is a list of some of the technologies I've used to get the job done: </p>
+          <p class="caption">I'm always learning something new, but here's a list of some of the technologies I've used to get the job done: </p>
         </span>
       </div>
     </div>
