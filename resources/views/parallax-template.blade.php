@@ -58,7 +58,7 @@
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Hi there.<i class="material-icons right">close</i></span>
-              <p class="light flow-text">My name is Nick Bertanzetti and I'd like to help you navigate the electronic age. Whether you want to build an entire system from scratch or chat about an idea, I'm always open for discussion. Scroll on down to learn more about what I can do for you.</p>
+              <p class="light flow-text">My name is Nick Bertanzetti and I'd like to help you navigate the information age. Whether you want to build an entire system from scratch or chat about an idea, I'm always open for discussion. Scroll on down to learn more about what I can do for you.</p>
               <img src="{!! asset('parallax-template/calvin.jpg') !!}" alt="Unsplashed background img 2" style="display: block;margin-left: auto;margin-right: auto; width:75%;">
             </div>
           </div>
@@ -520,13 +520,16 @@
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
         <h3>Tools</h3>
+        <span>
+          <p class="caption">I'm always learning something new, but here is a list of some of the technologies I've used to get the job done: </p>
+        </span>
       </div>
     </div>
     <div class="row center">
       <div class="">
         <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header">Languages</div>
+            <div class="collapsible-header"><span class="teal-text">Languages</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">PHP</div>
@@ -539,7 +542,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">Frameworks/Libraries</div>
+            <div class="collapsible-header"><span class="teal-text">Frameworks/Libraries</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Laravel</div>
@@ -561,7 +564,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">APIs</div>
+            <div class="collapsible-header"><span class="teal-text">APIs</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Twitter</div>
@@ -573,7 +576,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">OS</div>
+            <div class="collapsible-header"><span class="teal-text">OS</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Linux</div>
@@ -582,7 +585,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">Databases</div>
+            <div class="collapsible-header"><span class="teal-text">Databases</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Oracle</div>
@@ -592,7 +595,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">Servers</div>
+            <div class="collapsible-header"><span class="teal-text">Servers</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Apache</div>
@@ -602,7 +605,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">Project Management</div>
+            <div class="collapsible-header"><span class="teal-text">Project Management</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">JIRA</div>
@@ -612,7 +615,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header">Other</div>
+            <div class="collapsible-header"><span class="teal-text">Other</span></div>
             <div class="collapsible-body">
               <p>
                 <div class="chip">Chrome DevTools</div>
@@ -658,8 +661,8 @@
     <div class="row center">
       <a href="mailto:nsbertanzetti@gmail.com" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/nickbertanzetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-linkedin"></i></a>
-      {{--<a href="https://github.com/burntspaghetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>--}}
-      {{--<a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>--}}
+      <a href="https://github.com/burntspaghetti" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>
+      <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>
     </div>
   </div>
   <div class="footer-copyright">
