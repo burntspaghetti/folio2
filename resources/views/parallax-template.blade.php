@@ -50,7 +50,7 @@
             </div>
             <div class="card-content center">
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
-              <p class="teal-text text-lighten-2"><b>IT Guru</b></p>
+              <p class="teal-text text-lighten-2"><b>IT Consulting and Application Development</b></p>
               <br>
               <div class="card-action center">
                 <a class="activator waves-effect waves-light btn">Info</a>
@@ -533,11 +533,12 @@
             <div class="collapsible-body">
               <p>
                 <div class="chip">PHP</div>
-                <div class="chip">PL/SQL</div>
+                <div class="chip">SQL</div>
                 <div class="chip">JavaScript</div>
+                <div class="chip">C#</div>
+                <div class="chip">Java</div>
                 <div class="chip">HTML</div>
                 <div class="chip">CSS/SASS</div>
-                <div class="chip">C#</div>
               </p>
             </div>
           </li>
@@ -551,6 +552,7 @@
                 <div class="chip">Twitter Bootstrap</div>
                 <div class="chip">MaterializeCSS</div>
                 <div class="chip">ASP.NET MVC</div>
+                <div class="chip">Spring MVC</div>
                 <div class="chip">Web Forms</div>
                 <div class="chip">Highcharts</div>
                 <div class="chip">Chart.js</div>
@@ -571,7 +573,6 @@
                 <div class="chip">Google Maps</div>
                 <div class="chip">Stack Exchange</div>
                 <div class="chip">Alchemy API</div>
-                <div class="chip">OCI</div>
               </p>
             </div>
           </li>
