@@ -50,7 +50,7 @@
             </div>
             <div class="card-content center">
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
-              <p class="teal-text text-lighten-2"><b>IT Consulting and Application Development</b></p>
+              <p class="teal-text text-lighten-2"><b>IT Guru</b></p>
               <br>
               <div class="card-action center">
                 <a class="activator waves-effect waves-light btn">Info</a>
