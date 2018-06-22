@@ -46,7 +46,7 @@
         <div class="col s12 m6 l8 offset-l2">
           <div class="card hoverable" style="overflow: hidden;">
             <div class="card-image waves-effect waves-block waves-light">
-              <img id="profilepic" src="{!! asset('me3.jpg') !!}">
+              <img id="profilepic" src="{!! asset('me4.jpeg') !!}">
             </div>
             <div class="card-content center">
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
@@ -58,7 +58,7 @@
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Hi there.<i class="material-icons right">close</i></span>
-              <p class="light flow-text">My name is Nick Bertanzetti and I'd like to help you navigate the information age. Whether you want to build an entire system from scratch or chat about an idea, I'm always open for discussion. Scroll on down to learn more about what I can do for you.</p>
+              <p class="light flow-text">My name is Nick Bertanzetti and I'd like to help you navigate the information age. Whether you want to build an entire system from scratch or chat about an idea, I'm always open for discussion. Scroll on down to learn more about what we can achieve together.</p>
               <img src="{!! asset('parallax-template/calvin.jpg') !!}" alt="Unsplashed background img 2" style="display: block;margin-left: auto;margin-right: auto; width:75%;">
             </div>
           </div>
@@ -165,7 +165,7 @@
                 <i class="fa fa-wheelchair" aria-hidden="true"></i>
               </h2>
               <h5 class="">Accessibility</h5>
-              <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for disabled users.</p>
+              <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for all users.</p>
             </div>
           </div>
         </li>
@@ -532,11 +532,11 @@
             <div class="collapsible-header"><span class="teal-text">Languages</span></div>
             <div class="collapsible-body">
               <p>
+                <div class="chip">C#</div>
                 <div class="chip">PHP</div>
+                <div class="chip">Java</div>
                 <div class="chip">SQL</div>
                 <div class="chip">JavaScript</div>
-                <div class="chip">C#</div>
-                <div class="chip">Java</div>
                 <div class="chip">HTML</div>
                 <div class="chip">CSS/SASS</div>
               </p>
@@ -546,16 +546,14 @@
             <div class="collapsible-header"><span class="teal-text">Frameworks/Libraries</span></div>
             <div class="collapsible-body">
               <p>
+                <div class="chip">ASP.NET MVC</div>
                 <div class="chip">Laravel</div>
+                <div class="chip">Spring MVC</div>
                 <div class="chip">jQuery</div>
                 <div class="chip">Vue.js</div>
                 <div class="chip">Twitter Bootstrap</div>
-                <div class="chip">MaterializeCSS</div>
-                <div class="chip">ASP.NET MVC</div>
-                <div class="chip">Spring MVC</div>
                 <div class="chip">Web Forms</div>
                 <div class="chip">Highcharts</div>
-                <div class="chip">Chart.js</div>
                 <div class="chip">Image Intervention</div>
                 <div class="chip">DataTables</div>
                 <div class="chip">PhpCAS</div>
@@ -641,7 +639,7 @@
     </div>
   </div>
   <div class="parallax responsive-img">
-    <img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2">
+    <img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Space Station Time Lapse">
   </div>
 </div>
 <div class="container">
@@ -652,7 +650,6 @@
         <h3>Contact</h3>
         <h5 class="light flow-text">Let's team up.</h5>
         <h5 class="light flow-text">What can we do together?</h5>
-        {{--<img src="{!! asset('parallax-template/calvin.jpg') !!}" alt="Unsplashed background img 2">--}}
       </div>
     </div>
   </div>
